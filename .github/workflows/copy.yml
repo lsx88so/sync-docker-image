@@ -17,7 +17,7 @@ on:
       destination_repo:
         description: '目标仓库及标签 (格式 repo:tag)'
         required: true
-        default: ''
+        default: 'star-images:'
 
 jobs:
   copy:
